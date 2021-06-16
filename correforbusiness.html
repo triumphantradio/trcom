@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./assets/css/tailwind.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <title>CORRE for Business</title>
+  <link rel="stylesheet" href="./assets/css/aos.css" />
+  <!-- ... -->
+</head>
+
+<body>
+  <div class="mx-auto">
+    <header class="header z-50 fixed h-16 top-0 left-0 md:h-20 w-full bg-white shadow-lg">
+      <div class="container relative z-30 flex h-full w-full items-center px-5 mx-auto" style="max-width: 1180px">
+        <a href="/" class="h-full flex bg-white items-center">
+          <img src="./assets/img/logo.png"
+            class="justify-self-start transition duration-500 ease-in-out transform hover:scale-110" alt="corre" />
+        </a>
+        <div class="w-full hidden md:flex">
+          <nav class="first-links w-56 flex justify-self-start justify-end">
+            <a href="about.html" class="p-5 text-lg font-semibold hover:text-red-600">About</a>
+          </nav>
+          <div class="flex-1"></div>
+          <nav class="right-links flex items-center h-full justify-self-end">
+
+            <a href="partner.html"
+              class="bg-red-500 shadow-lg btn-move-animate text-red-100 hover:bg-red-600 text-lg font-bold px-8 py-3 rounded-full">Sign
+              Up</a>
+          </nav>
+        </div>
+        <!-- mobile button goes here -->
+        <div id="menuToggle" class="md:hidden w-full justify-self-end flex items-center">
+          <div class="flex-1"></div>
+
+          <input id="menu-toggle" type="checkbox" class="hidden" />
+          <div id="menu" style="z-index: -20"
+            class="mobile-menu absolute w-full left-0 top-14 bg-white overflow-hidden transition duration-700 ease-in-out transform md:hidden">
+            <a href="about.html" class="block py-3 pl-8 border-b px-4 text-lg font-medium hover:bg-gray-200">About</a>
+            <a href="contact.html" class="block py-3 pl-8 border-b px-4 text-lg font-medium hover:bg-gray-200">Contact
+              Us</a>
+
+            <a href="partner.html" class="block py-3 pl-8 border-b px-4 text-lg font-medium hover:bg-gray-200">Sign
+              Up</a>
+          </div>
+          <!-- id="menuToggle" -->
+          <label for="menu-toggle" class="flex flex-col content-between border-none">
+            <span class="border w-7 my-1 border-black"></span>
+            <span class="border w-7 my-1 border-black"></span>
+            <span class="border w-7 my-1 border-black"></span>
+          </label>
+        </div>
+      </div>
+      <!-- mobile menu -->
+    </header>
+    <section class="flex mt-16 pb-10 md:mt-20" data-aos="fade" data-aos-duration="3000">
+      <div class="container flex flex-col mb-5 h-full w-full mb-16 items-center px-5 mx-auto" style="max-width: 1180px">
+        <!-- <div class="px-5 py-3 mt-8 rounded-md font-bold text-red-500 text-xl bg-gray-200">
+                    FAQS
+                </div> -->
+        <h1 class="my-4 text-2xl px-4 md:text-4xl font-bold">
+          CORRE for Business
+        </h1>
+        <p class="text-gray-500 mb-8 max-w-lg px-4 font-semibold">
+          Change the way your business ship packages
+        </p>
+        <div class="w-full p-6 bg-white rounded-md" style="max-width: 70%;">
+          <img src="./assets/img/serve.jpg" alt="..." /><br />
+          <p>
+            It is tough, time consuming and expensive to run a fleet of package delivery 356days in a year,
+            personnel to manage and coordinate, with CORRE you take most of that burden off and focus on the
+            business of running your business.
+            <br /><br />
+            A delivery request gets over 100 responses from trusted and validated courier companies in
+            real-time, all to ensure that your customer get satisfaction from your delivery service a vital
+            part of your business.
+            <br /><br />
+            As a business all you need to do is enroll and leave the deliveries to CORRE.
+
+          </p>
+        </div>
+        <div class="flex flex-wrap">
+          <a href="partner.html"
+            class="bg-red-500 btn-move-animate shadow-cus mr-5 mb-5 text-red-100 hover:bg-red-600 text-lg font-bold px-8 py-3 rounded-full">Get
+            Started</a>
+          <a href="#"
+            class="bg-gray-800 btn-move-animate shadow-cus mb-5 text-gray-100 hover:bg-gray-600 text-lg font-bold px-8 py-3 rounded-full">Download
+            App</a>
+        </div>
+      </div>
+    </section>
+    <section class="flex bg-gray-100 min-h-full mt-10 py-14 md:mt-24">
+      <div data-aos="fade" data-aos-duration="3000"
+        class="container flex flex-col flex-wrap md:flex-row h-full w-full items-center px-5 mx-auto"
+        style="max-width: 1180px">
+        <div class="w-full h-full justify-self-start items-center flex flex-col md:w-1/2">
+          <div class="my-auto">
+            <h1 class="text-gray-900 font-bold text-4xl lg:text-5xl">
+              CORRE for Business
+            </h1>
+            <p class="text-lg text-gray-800 my-8 font-semibold">
+              A platform to manage your business shipping effortlessly.
+            </p>
+            <div class="flex flex-wrap">
+              <a href="#"
+                class="bg-red-100 btn-move-animate shadow-cus mr-5 mb-5 text-red-500 hover:bg-red-200 text-lg font-bold px-8 py-3 rounded-full">Get
+                Started
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex md:h-96 md:p-8 w-full md:w-1/2">
+          <img src="./assets/img/d.png" class="w-full shadow-cus object-cover rounded-3xl justify-self-end"
+            alt="corre" />
+        </div>
+      </div>
+    </section>
+    <section class="flex bg-gray-300 min-h-full py-3 mb-10">
+      <div data-aos="fade-up" data-aos-duration="3000"
+        class="container h-full w-full justify-center items-center px-5 mx-auto" style="max-width: 1180px">
+        <h2 class="text-2xl md:text-3xl mt-8 mb-6 text-center font-bold">
+          Why use CORRE?
+        </h2>
+        <div class="w-full flex items-center justify-center text-center">
+          <p class="text-base max-w-lg text-gray-500 mb-10">
+            What’s new on CORRE app. Tips for wealth management, investing,
+            remittances and much more!
+          </p>
+        </div>
+        <div class="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <!-- Blog List Div -->
+          <div class="flex flex-col bg-white btn-move-animate shadow-home-list overflow-hidden rounded-lg">
+            <img src="./assets/img/access.jpg" class="w-full object-cover" alt="..." />
+            <div class="w-full flex flex-col justify-center p-6">
+              <h3 class="font-bold text-lg mb-1">
+                Access CORRE everywhere
+              </h3>
+              <p class="text-base text-gray-500 mb-6">
+                CORRE is available to thousands of trusted and validated courier companies across Nigeria, so you are
+                covered.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col bg-white btn-move-animate shadow-home-list overflow-hidden rounded-lg">
+            <img src="./assets/img/manpower.jpg" class="w-full" alt="..." />
+            <div class="w-full flex flex-col justify-center p-6">
+
+              <h3 class="font-bold text-lg mb-1">Reduce and control manpower</h3>
+
+              <p class="text-base text-gray-500 mb-6">
+                With our platform the manpower requirement for logistics management is reduced including the cost
+                associated with running the operations of moving packages across the markets. CORRE gives you a Lean and
+                efficient team execute that part of your business operation.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col bg-white btn-move-animate shadow-home-list overflow-hidden rounded-lg">
+            <img src="./assets/img/cost.jpg" class="w-full" alt="..." />
+            <div class="w-full flex flex-col justify-center p-6">
+
+              <h3 class="font-bold text-lg mb-1">Control your spending budget</h3>
+
+              <p class="text-base text-gray-500 mb-6">
+                You can manage shipment budget and trim all fats around operations, control your logistics spend
+                annually based on data. You can access your spend report and have a clear insight with a single
+                dashboard.
+              </p>
+
+            </div>
+          </div>
+          <div class="flex flex-col bg-white btn-move-animate shadow-home-list overflow-hidden rounded-lg">
+            <img src="./assets/img/secure.png" class="w-full" alt="..." />
+            <div class="w-full flex flex-col justify-center p-6">
+
+              <h3 class="font-bold text-lg mb-1">Secure your delivery</h3>
+
+              <p class="text-base text-gray-500 mb-6">
+                CORRE was built with safety as a fundamental feature of the service, in-app features help to keep your
+                packages safe from GPS tracking that detects when a package goes off course to a three -factor
+                verification system that must confirm each transaction from the point of service request to delivery
+                point.
+                Every delivery is insured, every service provider goes through rigorous verification and validation
+                process, and all of these is at your finger tip at the press of a button.
+              </p>
+
+            </div>
+          </div>
+          <div class="flex flex-col bg-white btn-move-animate shadow-home-list overflow-hidden rounded-lg">
+            <img src="./assets/img/customer.jpg" class="w-full" alt="..." />
+            <div class="w-full flex flex-col justify-center p-6">
+
+              <h3 class="font-bold text-lg mb-1">Delight you people</h3>
+
+              <p class="text-base text-gray-500 mb-6">
+                The greatest feeling a customer wants is “Satisfaction” as a business we consider that the major
+                ingredients to a successful service. We give you the platform that enables you deliver on that promise.
+
+                You take control of your delivery schedules, track to ensure it is on its way, a dashboard that helps
+                you monitor all customers and also let your customers know their goods is on its way.
+              </p>
+
+            </div>
+          </div>
+          <div class="flex flex-col bg-white btn-move-animate shadow-home-list overflow-hidden rounded-lg">
+            <img src="./assets/img/digital.jpg" class="w-full" alt="..." />
+            <div class="w-full flex flex-col justify-center p-6">
+
+              <h3 class="font-bold text-lg mb-1">Digital Process</h3>
+
+              <p class="text-base text-gray-500 mb-6">
+                With CORRE your daily operation moves from a hardcopy to digital copy, making it easier to run
+                analytics, run through reports and monitor operations.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="flex bg-white min-h-full mt-16 py-1">
+      <div class="container flex flex-col md:flex-row h-full w-full px-5 mx-auto" data-aos="fade"
+        data-aos-duration="3000" style="max-width: 1180px">
+        <div class="w-full h-full">
+          <div class="grid grid-col-footer gap-6 w-full border-b pb-8">
+            <div class="w-full">
+              <a href="/" class="flex mb-2 items-center">
+                <img src="./assets/img/logo.png"
+                  class="justify-self-start transition duration-500 ease-in-out transform hover:scale-110"
+                  alt="corre" />
+              </a>
+              <p class="text-base text-gray-800 font-semibold mb-6">
+                Earn more with your existing business by becoming a CORRE Drop
+                Box Provider.
+              </p>
+              <div class="text-corre space-x-4">
+                <a href="https://www.facebook.com" target="_blank" class="inline-block"><img
+                    src="./assets/img/facebook.svg" width="20" alt="" /></a><a href="https://twitter.com"
+                  target="_blank" class="inline-block"><img src="./assets/img/twitter.svg" width="20" alt="" /></a><a
+                  href="https://www.instagram.com" target="_blank" class="inline-block"><img
+                    src="./assets/img/instagram.svg" width="20" alt="" /></a><a href="https://www.linkedin.com"
+                  target="_blank" class="social-icon inline-block"><img src="./assets/img/linkedin.svg" width="20"
+                    alt="" /></a>
+              </div>
+            </div>
+            <div class="w-full flex flex-col">
+              <h4 class="font-bold mb-4">Pages</h4>
+              <ul role="list" class="block">
+                <li class="text-corre font-semibold pb-3">
+                  <a href="index.html" aria-current="page" class="">Company </a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="about.html" class="">About Us</a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="career.html" class="">Career</a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="partner.html" class="">Partners ✨ </a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="privacy.html" class="">Privacy </a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full flex flex-col">
+              <h4 class="font-bold mb-4">Support</h4>
+              <ul role="list" class="block">
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="contact.html" class="">Contact</a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="faq.html" class="">FAQS</a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="correforbusiness.html" class="">Business Sign Up</a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="#" class="">Media </a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="#" class="">Find a CORRE City </a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="terms.html" class="">Terms </a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full flex flex-col">
+              <h4 class="font-bold mb-4">Download our App</h4>
+              <p class="text-base text-gray-800 font-semibold mb-6">
+                Our core service is developing technology that changes how
+                people can ship their goods from point a to point b without
+                leaving their home or business.
+              </p>
+              <div class="flex flex-wrap">
+                <a href="#"
+                  class="flex justify-center bg-red-500 btn-move-animate hover:shadow-cus mr-5 mb-5 text-red-100 hover:bg-red-600 text-lg font-bold px-3 py-3 rounded-full">
+                  <img src="./assets/img/app-store-button.svg" alt="" class="w-9/12" />
+                </a>
+                <a href="#"
+                  class="flex justify-center bg-red-500 btn-move-animate hover:shadow-cus mr-5 mb-5 text-red-100 hover:bg-red-600 text-lg font-bold px-3 py-3 rounded-full">
+                  <img src="./assets/img/play-store-button.svg" alt="" class="w-9/12" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col text-center justify-center p-8">
+            <div>
+              &copy; Copyright 2021
+              <a href="/" class="text-corre underline">RYVATON LTD</a>
+            </div>
+            <div>Designed By Triumphant Communication Limited</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./assets/js/aos.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

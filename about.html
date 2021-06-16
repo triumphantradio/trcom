@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./assets/css/tailwind.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <title>About Us</title>
+  <link rel="stylesheet" href="./assets/css/aos.css" />
+  <!-- ... -->
+</head>
+
+<body>
+  <div class="mx-auto">
+    <header class="header z-50 fixed h-16 top-0 left-0 md:h-20 w-full bg-white shadow-lg">
+      <div class="container relative z-30 flex h-full w-full items-center px-5 mx-auto" style="max-width: 1180px">
+        <a href="/" class="h-full flex bg-white items-center">
+          <img src="./assets/img/logo.png"
+            class="justify-self-start transition duration-500 ease-in-out transform hover:scale-110" alt="corre" />
+        </a>
+        <div class="w-full hidden md:flex">
+          <nav class="first-links w-56 flex justify-self-start justify-end">
+            <a href="about.html" class="p-5 text-lg font-semibold hover:text-red-600">About</a>
+          </nav>
+          <div class="flex-1"></div>
+          <nav class="right-links flex items-center h-full justify-self-end">
+
+            <a href="partner.html"
+              class="bg-red-500 shadow-lg btn-move-animate text-red-100 hover:bg-red-600 text-lg font-bold px-8 py-3 rounded-full">Sign
+              Up</a>
+          </nav>
+        </div>
+        <!-- mobile button goes here -->
+        <div id="menuToggle" class="md:hidden w-full justify-self-end flex items-center">
+          <div class="flex-1"></div>
+
+          <input id="menu-toggle" type="checkbox" class="hidden" />
+          <div id="menu" style="z-index: -20"
+            class="mobile-menu absolute w-full left-0 top-14 bg-white overflow-hidden transition duration-700 ease-in-out transform md:hidden">
+            <a href="about.html" class="block py-3 pl-8 border-b px-4 text-lg font-medium hover:bg-gray-200">About</a>
+            <a href="contact.html" class="block py-3 pl-8 border-b px-4 text-lg font-medium hover:bg-gray-200">Contact
+              Us</a>
+
+            <a href="partner.html" class="block py-3 pl-8 border-b px-4 text-lg font-medium hover:bg-gray-200">Sign
+              Up</a>
+          </div>
+          <!-- id="menuToggle" -->
+          <label for="menu-toggle" class="flex flex-col content-between border-none">
+            <span class="border w-7 my-1 border-black"></span>
+            <span class="border w-7 my-1 border-black"></span>
+            <span class="border w-7 my-1 border-black"></span>
+          </label>
+        </div>
+      </div>
+      <!-- mobile menu -->
+    </header>
+
+    <section class="flex min-h-full bg-gray-100 mt-16 pb-10 md:mt-20">
+      <div class="container grid grid-col-about pt-6 gap-6 h-full w-full items-start px-5 mx-auto"
+        style="max-width: 1180px">
+        <div class="hidden md:block h-full w-full">
+          <ul class="text-corre-dark top-20 rounded-md sticky bg-white">
+            <li class="p-3">
+              <a href="#about-us" class="hover:text-corre">About Us</a>
+            </li>
+            <li class="p-3 border-t">
+              <a href="#mission" class="hover:text-corre">Our Mission</a>
+            </li>
+            <li class="p-3 border-t">
+              <a href="#ourgoal" class="hover:text-corre">Our Goal</a>
+            </li>
+            <li class="p-3 border-t">
+              <a href="#delivering" class="hover:text-corre">Who is delivering to CORRE</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-full p-6 bg-white rounded-md">
+          <h2 id="about-us" class="text-xl md:text-2xl font-bold pb-6">
+            About Us
+          </h2>
+          <p>
+            We provide an experience which triggers confidence and satisfaction when we set your packgaes in motion.
+          </p>
+          <img class="pb-5" src="./assets/img/about.jpg" alt="..." />
+          <p>
+            Whether it is moving packages across town or to another town, confidence and satisfaction ensure
+            opportunities, realities are met and dreams are fulfiled. We started by seekiing a solution to shipping a
+            package from the comfort of our home while having the power of choice. Wth the power of choice we decided to
+            bring together a network of courier service providers, while giving the shipper the power to track, choose a
+            price to ship the item and also who to carryout that service.
+          </p>
+          <h2 id="mission" class="text-xl md:text-2xl font-bold py-6">
+            Our Mission: Making delivery seamless
+          </h2>
+          <img class="pb-5" src="./assets/img/mission.jpg" alt="..." />
+          <p>
+            Whether It is a letter or an expensive gift, the guarantee that your parcel is delivered on time is
+            essential. With technology we are able to keep the promise, our service is designed to ensure each
+            shippement gets to its final destination hitch free. Our partners agree with us and we work as a team to
+            achive this promise.
+          </p>
+          <h2 id="ourgoal" class="text-xl md:text-2xl font-bold py-6">
+            Our Goal
+          </h2>
+          <img class="pb-5" src="./assets/img/goal.png" alt="..." />
+          <p>
+            Our goal is to provide a workplace where everyone can be the best they can be regardless of what or who they
+            are. We create an enviroment where everone can thrive, customers and employees.
+          </p>
+          <h2 id="delivering" class="text-xl md:text-2xl font-bold py-6">
+            Who is delivering to CORRE
+          </h2>
+          <img class="pb-5" src="./assets/img/delivery.jpg" alt="..." />
+
+          <p>
+            We have a culture within CORRE that emphasises ensuring quality of service, treating everyone as respect,
+            and doing the right thing for the shipper, dispatchers and employee.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="flex bg-gray-100 min-h-full mt-16 py-3 mb-10">
+      <div data-aos="fade-up" data-aos-duration="3000"
+        class="container h-full w-full justify-center items-center px-5 mx-auto" style="max-width: 1180px">
+        <h2 class="text-2xl md:text-3xl mt-8 mb-6 text-center font-bold">
+          Our Teams
+        </h2>
+        <div class="w-full flex items-center justify-center text-center">
+          <p class="text-base max-w-lg text-gray-500 mb-10">
+            Our team is built on the core values of sustainability focus, operational excellence, accountability,
+            reliance. We’ve built our business on a strong platform of – People, Process, Workplace and Technology.
+          </p>
+        </div>
+        <div class="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <!-- Team List Div -->
+          <div class="flex flex-col bg-white btn-move-animate shadow-home-list overflow-hidden rounded-lg">
+            <img src="./assets/img/tm.jpg" class="w-full object-cover" alt="..." />
+            <div class="w-full flex flex-col justify-center p-6">
+              <figcaption class="font-medium">
+                <div class="text-cyan-600">
+
+                </div>
+                <div class="text-gray-500">
+                  MD/CEO, Algolia
+                </div>
+              </figcaption>
+              <div class="text-corre space-x-4">
+                <a href="https://twitter.com" target="_blank" class="inline-block">
+                  <img src="./assets/img/twitter.svg" width="20" alt="" /></a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon inline-block">
+                  <img src="./assets/img/linkedin.svg" width="20" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col bg-white btn-move-animate shadow-home-list overflow-hidden rounded-lg">
+            <img src="./assets/img/tmm.JPG" class="w-full" alt="..." />
+            <div class="w-full flex flex-col justify-center p-6">
+              <figcaption class="font-medium">
+                <div class="text-cyan-600">
+
+                </div>
+                <div class="text-gray-500">
+                  Staff Engineer, Algolia
+                </div>
+              </figcaption>
+              <div class="text-corre space-x-4">
+                <a href="https://twitter.com" target="_blank" class="inline-block">
+                  <img src="./assets/img/twitter.svg" width="20" alt="" /></a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon inline-block">
+                  <img src="./assets/img/linkedin.svg" width="20" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="flex flex-col bg-white btn-move-animate shadow-home-list overflow-hidden rounded-lg">
+            <img src="./assets/img/tm1.jpg" class="w-full" alt="..." />
+            <div class="w-full flex flex-col justify-center p-6">
+              <figcaption class="font-medium">
+                <div class="text-cyan-600">
+                  Sarah Dayan
+                </div>
+                <div class="text-gray-500">
+                  Staff Engineer, Algolia
+                </div>
+              </figcaption>
+              <div class="text-corre space-x-4">
+                <a href="https://twitter.com" target="_blank" class="inline-block">
+                  <img src="./assets/img/twitter.svg" width="20" alt="" /></a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon inline-block">
+                  <img src="./assets/img/linkedin.svg" width="20" alt="" /></a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- Body -->
+    <footer class="flex bg-white min-h-full mt-16 py-1">
+      <div class="container flex flex-col md:flex-row h-full w-full px-5 mx-auto" data-aos="fade"
+        data-aos-duration="3000" style="max-width: 1180px">
+        <div class="w-full h-full">
+          <div class="grid grid-col-footer gap-6 w-full border-b pb-8">
+            <div class="w-full">
+              <a href="/" class="flex mb-2 items-center">
+                <img src="./assets/img/logo.png"
+                  class="justify-self-start transition duration-500 ease-in-out transform hover:scale-110"
+                  alt="corre" />
+              </a>
+              <p class="text-base text-gray-800 font-semibold mb-6">
+                Earn more with your existing business by becoming a CORRE Drop
+                Box Provider.
+              </p>
+              <div class="text-corre space-x-4">
+                <a href="https://www.facebook.com" target="_blank" class="inline-block"><img
+                    src="./assets/img/facebook.svg" width="20" alt="" /></a><a href="https://twitter.com"
+                  target="_blank" class="inline-block"><img src="./assets/img/twitter.svg" width="20" alt="" /></a><a
+                  href="https://www.instagram.com" target="_blank" class="inline-block"><img
+                    src="./assets/img/instagram.svg" width="20" alt="" /></a><a href="https://www.linkedin.com"
+                  target="_blank" class="social-icon inline-block"><img src="./assets/img/linkedin.svg" width="20"
+                    alt="" /></a>
+              </div>
+            </div>
+            <div class="w-full flex flex-col">
+              <h4 class="font-bold mb-4">Pages</h4>
+              <ul role="list" class="block">
+                <li class="text-corre font-semibold pb-3">
+                  <a href="index.html" aria-current="page" class="">Company </a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="about.html" class="">About Us</a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="career.html" class="">Career</a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="partner.html" class="">Partners ✨ </a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="privacy.html" class="">Privacy </a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full flex flex-col">
+              <h4 class="font-bold mb-4">Support</h4>
+              <ul role="list" class="block">
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="contact.html" class="">Contact</a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="faq.html" class="">FAQS</a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="correforbusiness.html" class="">Business Sign Up</a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="#" class="">Media </a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="#" class="">Find a CORRE City </a>
+                </li>
+                <li class="text-gray-500 font-semibold pb-3">
+                  <a href="terms.html" class="">Terms </a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full flex flex-col">
+              <h4 class="font-bold mb-4">Download our App</h4>
+              <p class="text-base text-gray-800 font-semibold mb-6">
+                Our core service is developing technology that changes how
+                people can ship their goods from point a to point b without
+                leaving their home or business.
+              </p>
+              <div class="flex flex-wrap">
+                <a href="#"
+                  class="flex justify-center bg-red-500 btn-move-animate hover:shadow-cus mr-5 mb-5 text-red-100 hover:bg-red-600 text-lg font-bold px-3 py-3 rounded-full">
+                  <img src="./assets/img/app-store-button.svg" alt="" class="w-9/12" />
+                </a>
+                <a href="#"
+                  class="flex justify-center bg-red-500 btn-move-animate hover:shadow-cus mr-5 mb-5 text-red-100 hover:bg-red-600 text-lg font-bold px-3 py-3 rounded-full">
+                  <img src="./assets/img/play-store-button.svg" alt="" class="w-9/12" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col text-center justify-center p-8">
+            <div>
+              &copy; Copyright 2021
+              <a href="/" class="text-corre underline">RYVATON LTD</a>
+            </div>
+            <div>Designed By Triumphant Communication Limited</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./assets/js/aos.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
